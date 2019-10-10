@@ -34,6 +34,6 @@ public class HsqldbUserDao implements Dao<User> {
     public Collection<User> findAll(User entity) throws DatabaseUnitException {
         return null;
     }
-    
+
 }
 
