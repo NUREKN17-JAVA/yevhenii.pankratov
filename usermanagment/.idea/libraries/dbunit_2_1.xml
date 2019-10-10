@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="dbunit-2.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/dbunit-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hsqldb-1.8.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/junit-4.13-beta-3.jar!/" />
+      <root url="file://$PROJECT_DIR$" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/src" />
+    </SOURCES>
+  </library>
+</component>
