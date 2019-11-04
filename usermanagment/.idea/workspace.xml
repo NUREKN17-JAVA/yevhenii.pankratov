@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e5a2bca-4647-46fe-a2f9-532990fc4619" name="Default Changelist" comment="add settings.properties and DaoFactory">
-      <change afterPath="$PROJECT_DIR$/db/usermanagement.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/usermanagement.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/usermanagement.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/usermanagement.script" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/settings.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/Dao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/HsqldbUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/HsqldbUserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/nure/kn/pankratov/db/HsqldbUserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/nure/kn/pankratov/db/HsqldbUserDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/usersDataSet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/usersDataSet.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8e5a2bca-4647-46fe-a2f9-532990fc4619" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/Dao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+            <state relative-caret-position="130">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/DatabaseException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="119">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -604,7 +593,7 @@
       <workItem from="1570683516734" duration="11721000" />
       <workItem from="1571146775144" duration="754000" />
       <workItem from="1572430370807" duration="167000" />
-      <workItem from="1572875280560" duration="7448000" />
+      <workItem from="1572875280560" duration="8566000" />
     </task>
     <task id="LOCAL-00001" summary="Testing crate method">
       <created>1570688687885</created>
@@ -641,7 +630,21 @@
       <option name="project" value="LOCAL" />
       <updated>1570695830250</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add settings.properties and DaoFactory">
+      <created>1572886184900</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1572886184900</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add settings.properties and DaoFactory">
+      <created>1572889893820</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1572889893820</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -677,7 +680,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48568000" />
+    <option name="totallyTimeSpent" value="49686000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -866,13 +869,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/DatabaseException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/HsqldbUserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -916,11 +912,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/Dao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        <state relative-caret-position="130">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/DatabaseException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
