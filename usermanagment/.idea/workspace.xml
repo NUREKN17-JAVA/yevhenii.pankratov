@@ -3,14 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8e5a2bca-4647-46fe-a2f9-532990fc4619" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/test/java/ua/nure/kn/pankratov/db/DaoFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/ConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/ConnectionFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/ConnectionFactoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/ConnectionFactoryImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/Dao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/DaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/DaoFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/DatabaseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/DatabaseException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/HsqldbUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/HsqldbUserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/nure/kn/pankratov/db/HsqldbUserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/nure/kn/pankratov/db/HsqldbUserDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/domain/User.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,116 +24,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/ConnectionFactoryImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/DaoFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out/production/usermanagment/main/java/ua/nure/kn/pankratov/db/DaoFactory.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-25">
-              <folding>
-                <element signature="e#0#2059#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ua/nure/kn/pankratov/db/HsqldbUserDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-678">
-              <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+            <state relative-caret-position="391">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ua/nure/kn/pankratov/domain/UserTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-712">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ua/nure/kn/pankratov/db/DaoFactoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/HsqldbUserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-272">
-              <caret line="121" selection-start-line="121" selection-end-line="121" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1148#1149#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/ConnectionFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/domain/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/DatabaseException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -171,7 +66,6 @@
         <option value="$PROJECT_DIR$/src/UserTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/domain/UserTest.java" />
         <option value="$PROJECT_DIR$/src/build.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/domain/User.java" />
         <option value="$PROJECT_DIR$/src/build.xml" />
         <option value="$PROJECT_DIR$/src/test/java/ua/nure/kn/pankratov/domain/UserTest.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -182,14 +76,15 @@
         <option value="$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/ConnectionFactrory.java" />
         <option value="$PROJECT_DIR$/src/test/resources/usersDataSet.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/settings.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/Dao.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/DatabaseException.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/ConnectionFactoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/HsqldbUserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/ConnectionFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/DaoFactory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ua/nure/kn/pankratov/db/HsqldbUserDaoTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ua/nure/kn/pankratov/db/DaoFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/Dao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/HsqldbUserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ua/nure/kn/pankratov/db/HsqldbUserDaoTest.java" />
       </list>
     </option>
   </component>
@@ -401,7 +296,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/junit-4.13-beta-3.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -433,6 +328,9 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\Desktop\Новая папка (3)\usermanagment" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\Новая папка (3)\usermanagment\src\test" />
     </key>
     <key name="IntroduceConstantDialog.RECENTS_KEY">
       <recent name="main.java.ua.nure.kn.pankratov.domain.UserTest" />
@@ -674,19 +572,17 @@
       <option name="project" value="LOCAL" />
       <updated>1572892753917</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="implementation and additions of methods and classes: ConnectionFactoryImpl, HsqldbUserDao, getUserDao and DaoFactoryTest.">
+      <created>1572894784971</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1572894784971</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserTest_(1) - 2019.10.08 at 20h 26m 31s.xml">
-      <configuration name="UserTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserTest_(1) - 2019.10.08 at 20h 26m 53s.xml">
-      <configuration name="UserTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserTest_(1) - 2019.10.08 at 20h 27m 15s.xml">
-      <configuration name="UserTest (1)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserTest_(1) - 2019.10.08 at 20h 27m 39s.xml">
       <configuration name="UserTest (1)" configurationId="JUnit" />
     </history-entry>
@@ -708,9 +604,18 @@
     <history-entry file="HsqldbUserDaoTest - 2019.11.04 at 16h 27m 58s.xml">
       <configuration name="HsqldbUserDaoTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HsqldbUserDaoTest - 2019.11.04 at 21h 32m 10s.xml">
+      <configuration name="HsqldbUserDaoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HsqldbUserDaoTest - 2019.11.04 at 21h 34m 58s.xml">
+      <configuration name="HsqldbUserDaoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HsqldbUserDaoTest - 2019.11.04 at 21h 36m 39s.xml">
+      <configuration name="HsqldbUserDaoTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52500000" />
+    <option name="totallyTimeSpent" value="54211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -725,7 +630,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26350245" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5564648" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -798,11 +703,21 @@
     <MESSAGE value="creating a findAll method and testing method" />
     <MESSAGE value="add settings.properties and DaoFactory" />
     <MESSAGE value="completion DaoFactory. step 15" />
-    <option name="LAST_COMMIT_MESSAGE" value="completion DaoFactory. step 15" />
+    <MESSAGE value="implementation and additions of methods and classes: ConnectionFactoryImpl, HsqldbUserDao, getUserDao and DaoFactoryTest." />
+    <option name="LAST_COMMIT_MESSAGE" value="implementation and additions of methods and classes: ConnectionFactoryImpl, HsqldbUserDao, getUserDao and DaoFactoryTest." />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>Connection connection = connectionFactory.getConnection();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/UserTest.java" />
@@ -846,7 +761,6 @@
     <entry file="file://$PROJECT_DIR$/db/usermanagement.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/usermanagment/main/java/ua/nure/kn/pankratov/db/HsqldbUserDao.class" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/usersDataSet.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -858,16 +772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/Dao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -903,47 +807,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/HsqldbUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272">
-          <caret line="121" selection-start-line="121" selection-end-line="121" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1148#1149#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/DaoFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/ConnectionFactoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/ConnectionFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -951,10 +814,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ua/nure/kn/pankratov/db/HsqldbUserDaoTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/test.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-678">
-          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        <state relative-caret-position="204">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ua/nure/kn/pankratov/db/DaoFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/DaoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -963,7 +843,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ua/nure/kn/pankratov/domain/UserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-712">
+        <state relative-caret-position="-49">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -971,10 +851,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ua/nure/kn/pankratov/db/DaoFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/Dao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="34">
+          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/usermanagment/main/java/ua/nure/kn/pankratov/db/HsqldbUserDao.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="101" column="16" selection-start-line="101" selection-start-column="16" selection-end-line="101" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#1962#1963#0" expanded="true" />
+            <element signature="e#2035#2036#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/dbunit-2.1.jar!/org/dbunit/DatabaseTestCase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/ConnectionFactoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/nure/kn/pankratov/db/HsqldbUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="44" column="80" selection-start-line="44" selection-start-column="80" selection-end-line="44" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1097#1098#0" expanded="true" />
+            <element signature="e#1155#1156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.13-beta-3.jar!/org/junit/internal/runners/JUnit38ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.13-beta-3.jar!/org/junit/runner/JUnitCore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ua/nure/kn/pankratov/db/HsqldbUserDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

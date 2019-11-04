@@ -115,11 +115,6 @@ public class HsqldbUserDao implements Dao<User> {
     }
 
     @Override
-    public void find(long id) throws DatabaseException {
-
-    }
-
-
     public User find(Long id) throws DatabaseException {
         User user = null;
         try {
@@ -127,7 +122,6 @@ public class HsqldbUserDao implements Dao<User> {
             PreparedStatement statement = connection.prepareStatement(FIND_BY_ID);
             statement.setLong(1, id);
             ResultSet resultSet = statement.executeQuery();
-
             if (resultSet.next()) {
                 user = new User();
                 user.setId(resultSet.getLong(1));
@@ -143,6 +137,9 @@ public class HsqldbUserDao implements Dao<User> {
         }
         return user;
     }
+
+
+
 
     @Override
     public Collection<User> findAll() throws DatabaseException {

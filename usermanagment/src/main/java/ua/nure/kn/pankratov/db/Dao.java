@@ -12,7 +12,7 @@ public interface Dao<T> {
 
     void delete(T entity) throws DatabaseUnitException, DatabaseException;
 
-    void find(long id) throws DatabaseException;
+    T find(Long id) throws DatabaseException;
 
     Collection<User> findAll() throws DatabaseException;
 
