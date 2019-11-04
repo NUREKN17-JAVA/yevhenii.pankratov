@@ -16,4 +16,5 @@ public interface Dao<T> {
 
     Collection<User> findAll() throws DatabaseException;
 
+    void setConnectionFactory(ConnectionFactory connectionFactory);
 }

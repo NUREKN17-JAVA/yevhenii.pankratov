@@ -3,69 +3,124 @@ package test.java.ua.nure.kn.pankratov.db;
 import main.java.ua.nure.kn.pankratov.db.ConnectionFactory;
 import main.java.ua.nure.kn.pankratov.db.ConnectionFactoryImpl;
 import main.java.ua.nure.kn.pankratov.db.DatabaseException;
+import main.java.ua.nure.kn.pankratov.db.HsqldbUserDao;
 import main.java.ua.nure.kn.pankratov.domain.User;
 import org.dbunit.DatabaseTestCase;
 import org.dbunit.database.DatabaseConnection;
 import org.dbunit.database.IDatabaseConnection;
 import org.dbunit.dataset.IDataSet;
-
-import main.java.ua.nure.kn.pankratov.db.HsqldbUserDao;
 import org.dbunit.dataset.xml.XmlDataSet;
 
-import java.util.Calendar;
 import java.util.Collection;
+import java.util.Date;
+
 
 public class HsqldbUserDaoTest extends DatabaseTestCase {
 
+    private static final String FIRST_NAME = "John";
+    private static final String LAST_NAME = "Doe";
+    private static final long ID = 1L;
+    private static final String USER = "sa";
+    private static final String PASSWORD = "";
+    private static final String URL = "jdbc:hsqldb:file:db/usermanagment";
+    private static final String DRIVER = "org.hsqldb.jdbcDriver";
+    private static final String XML_FILE = "usersDataSet.xml";
+    private static final String TEST_FIRST_NAME = "Sam";
+    private static final String TEST_LAST_NAME = "Smith";
+    private static final String UPDATED_TEST_NAME = "Sam11";
+    private HsqldbUserDao hsqldbUserDao;
     private ConnectionFactory connectionFactory;
-    private static final int DAY_OF_BIRTH = 1;
-    private static final int MONTH = 1;
-    private static final int YEAR = 2010;
-    private HsqldbUserDao dao;
-    private static final String LAST_NAME = "Gates";
-    private static final String FIRST_NAME = "Bill";
 
-    public void testCreate() throws DatabaseException {
-        User user = new User();
-        user.setFirstName(FIRST_NAME);
-        user.setLastName(LAST_NAME);
-        Calendar calendar = Calendar.getInstance();
-        calendar.set(YEAR,MONTH, DAY_OF_BIRTH);
-        user.setDateOfBirth(calendar.getTime());
-        assertNull(user.getId());
-        User userToCheck = dao.create(user);
-        assertNotNull(userToCheck);
-        assertNotNull(userToCheck.getId());
-        assertEquals(FIRST_NAME,userToCheck.getFirstName());
-        assertEquals(LAST_NAME,userToCheck.getLastName());
-        assertEquals(calendar.getTime(), userToCheck.getDateOfBirth());
+    public void testCreate() {
+        try {
+            User user = createUserWithoutID();
+            assertNull(user.getId());
+
+            User userToCheck = hsqldbUserDao.create(user);
+
+            assertNotNull(userToCheck);
+            assertNotNull(userToCheck.getId());
+            assertEquals("Creating of user was failed.", user.getFirstName(),
+                    userToCheck.getFirstName());
+        } catch (DatabaseException e) {
+            fail(e.toString());
+        }
     }
 
-    public void testFindAll() throws DatabaseException {
-        Collection<User> items = dao.findAll();
-        assertNotNull(items);
-        assertEquals(2, items.size());
+    public void testFindAll() {
+        try {
+            User user = createUserWithoutID();
+            int expectedCollectionSize = hsqldbUserDao.findAll()
+                    .size() + 1;
+            hsqldbUserDao.create(user);
+            Collection users = hsqldbUserDao.findAll();
+            assertNotNull("Collection is null", users);
+            assertEquals("Collection size.", expectedCollectionSize, users.size());
+        } catch (DatabaseException e) {
+            e.getMessage();
+            e.printStackTrace();
+        }
     }
 
+    public void testFind() throws DatabaseException {
+        long testUserId = ID + 2;
+        User expectedUser = hsqldbUserDao.create(createUserWithID(testUserId));
+        User actualUser = hsqldbUserDao.find(testUserId);
+        assertNotNull(actualUser);
+        assertEquals(expectedUser.getFirstName(), actualUser.getFirstName());
+        assertEquals(expectedUser.getLastName(), actualUser.getLastName());
+    }
+
+    public void testDelete() throws DatabaseException {
+        User testUser = createUserWithID(ID);
+        hsqldbUserDao.delete(testUser);
+        assertNull(hsqldbUserDao.find(ID));
+    }
+
+    public void testUpdate() throws DatabaseException {
+        User testUser = new User(ID, TEST_FIRST_NAME, TEST_LAST_NAME, new Date());
+        hsqldbUserDao.create(testUser);
+
+        testUser.setFirstName(UPDATED_TEST_NAME);
+
+        hsqldbUserDao.update(testUser);
+        User updatedUser = hsqldbUserDao.find(testUser.getId());
+        assertNotNull(updatedUser);
+        assertEquals(testUser.getFirstName(), updatedUser.getFirstName());
+        assertEquals(testUser.getLastName(), updatedUser.getLastName());
+    }
+
+    @Override
     protected void setUp() throws Exception {
-        super.setUp();
-        dao = new HsqldbUserDao(connectionFactory);
+        connectionFactory = new ConnectionFactoryImpl(USER, PASSWORD, URL, DRIVER);
+        hsqldbUserDao = new HsqldbUserDao(connectionFactory);
     }
 
+    @Override
     protected void tearDown() throws Exception {
         super.tearDown();
     }
 
     @Override
     protected IDatabaseConnection getConnection() throws Exception {
-        connectionFactory = new ConnectionFactoryImpl();
+        connectionFactory = new ConnectionFactoryImpl(USER, PASSWORD, URL, DRIVER);
         return new DatabaseConnection(connectionFactory.getConnection());
     }
 
     @Override
     protected IDataSet getDataSet() throws Exception {
-        IDataSet dataSet = new XmlDataSet(getClass().getClassLoader().getResourceAsStream("usersDataSet.xml"));
+        IDataSet dataSet = new XmlDataSet(getClass().getClassLoader()
+                .getResourceAsStream(XML_FILE));
         return dataSet;
     }
 
+    private static User createUserWithoutID() {
+        User user = new User(null, FIRST_NAME, LAST_NAME, new Date());
+        return user;
+    }
+
+    private static User createUserWithID(long id) {
+        User user = new User(id, FIRST_NAME, LAST_NAME, new Date());
+        return user;
+    }
 }
