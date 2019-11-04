@@ -1,18 +1,23 @@
 package test.java.ua.nure.kn.pankratov.db;
 
+import main.java.ua.nure.kn.pankratov.db.ConnectionFactory;
+import main.java.ua.nure.kn.pankratov.db.ConnectionFactoryImpl;
 import main.java.ua.nure.kn.pankratov.db.DatabaseException;
 import main.java.ua.nure.kn.pankratov.domain.User;
 import org.dbunit.DatabaseTestCase;
+import org.dbunit.database.DatabaseConnection;
 import org.dbunit.database.IDatabaseConnection;
 import org.dbunit.dataset.IDataSet;
 
 import main.java.ua.nure.kn.pankratov.db.HsqldbUserDao;
+import org.dbunit.dataset.xml.XmlDataSet;
 
 import java.util.Calendar;
+import java.util.Collection;
 
 public class HsqldbUserDaoTest extends DatabaseTestCase {
 
-
+    private ConnectionFactory connectionFactory;
     private static final int DAY_OF_BIRTH = 1;
     private static final int MONTH = 1;
     private static final int YEAR = 2010;
@@ -36,8 +41,15 @@ public class HsqldbUserDaoTest extends DatabaseTestCase {
         assertEquals(calendar.getTime(), userToCheck.getDateOfBirth());
     }
 
+    public void testFindAll() throws DatabaseException {
+        Collection<User> items = dao.findAll();
+        assertNotNull(items);
+        assertEquals(2, items.size());
+    }
+
     protected void setUp() throws Exception {
         super.setUp();
+        dao = new HsqldbUserDao(connectionFactory);
     }
 
     protected void tearDown() throws Exception {
@@ -46,14 +58,14 @@ public class HsqldbUserDaoTest extends DatabaseTestCase {
 
     @Override
     protected IDatabaseConnection getConnection() throws Exception {
-        // TODO Auto-generated method stub
-        return null;
+        connectionFactory = new ConnectionFactoryImpl();
+        return new DatabaseConnection(connectionFactory.getConnection());
     }
 
     @Override
     protected IDataSet getDataSet() throws Exception {
-        // TODO Auto-generated method stub
-        return null;
+        IDataSet dataSet = new XmlDataSet(getClass().getClassLoader().getResourceAsStream("usersDataSet.xml"));
+        return dataSet;
     }
 
 }

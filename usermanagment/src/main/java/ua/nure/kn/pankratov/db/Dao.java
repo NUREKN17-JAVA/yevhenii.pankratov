@@ -1,5 +1,6 @@
 package main.java.ua.nure.kn.pankratov.db;
 
+import main.java.ua.nure.kn.pankratov.domain.User;
 import org.dbunit.DatabaseUnitException;
 
 import java.util.Collection;
@@ -11,8 +12,8 @@ public interface Dao<T> {
 
     void delete(T entity) throws DatabaseUnitException, DatabaseException;
 
-    T find(T entity) throws DatabaseUnitException;
+    void find(long id) throws DatabaseException;
 
-    Collection<T> findAll(T entity) throws DatabaseUnitException;
+    Collection<User> findAll() throws DatabaseException;
 
 }
