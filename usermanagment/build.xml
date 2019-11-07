@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<project name="usermanagment" basedir="." default="test">
+<project name="usermanagment" basedir="src" default="test">
 
     <description>
         Project ITKN-17-9 Pankratov E.
