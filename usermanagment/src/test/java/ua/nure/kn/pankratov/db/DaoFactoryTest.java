@@ -1,3 +1,4 @@
+/*
 package test.java.ua.nure.kn.pankratov.db;
 
 import junit.framework.TestCase;
@@ -9,12 +10,12 @@ public class DaoFactoryTest extends TestCase {
     public void testUserDao() {
         try {
             DaoFactory daoFactory = DaoFactory.getInstance();
-            assertNotNull("Dao factory is null", daoFactory);
+            assertNotNull("Dao factory instance is null", daoFactory);
             Dao dao = daoFactory.getDao();
-            assertNotNull("UserDao is null", dao);
+            assertNotNull("UserDao instance is null", dao);
         } catch (ReflectiveOperationException e) {
             e.printStackTrace();
             fail(e.toString());
         }
     }
-}
+}*/
