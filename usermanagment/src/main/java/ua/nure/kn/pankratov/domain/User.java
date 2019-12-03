@@ -1,16 +1,17 @@
 package main.java.ua.nure.kn.pankratov.domain;
 
+import java.io.Serializable;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.Objects;
 
-public class User {
+public class User implements Serializable {
+
+
+    private static final long serialVersionUID = -9093246790936431023L;
     private Long id;
     private String firstName;
     private String lastName;
     private Date dateOfBirth;
-
-    public User(){}
 
     public User(Long id, String firstName, String lastName, Date dateOfBirth) {
         this.id = id;
@@ -18,7 +19,12 @@ public class User {
         this.lastName = lastName;
         this.dateOfBirth = dateOfBirth;
     }
-
+    public User(String firstName, String lastName, Date dateOfBirth) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.dateOfBirth = dateOfBirth;
+    }
+    public User() { }
     public Long getId() {
         return id;
     }
@@ -51,42 +57,36 @@ public class User {
         this.dateOfBirth = dateOfBirth;
     }
 
-    public String getFullName() {
-        return getLastName() + " " + getFirstName();
+    public boolean equals(Object o) {
+        if (o == null) {
+            return false;
+        }
+        if (this == o) {
+            return true;
+        }
+        if (this.getId() == null && ((User) o).getId() == null) {
+            return true;
+        }
+        return this.getId().equals(((User) o).getId());
     }
 
+    public int hashCode() {
+        if (this.getId() == null) {
+            return 0;
+        }
+        return this.getId().hashCode();
+    }
+
+
+    public String getFullName() {
+        return getLastName() + ", " + getFirstName();
+    }
     public int getAge() {
         Calendar calendar = Calendar.getInstance();
         calendar.setTime(new Date());
-        int currenrYear = calendar.get(Calendar.YEAR);
+        int currentYear = calendar.get(Calendar.YEAR);
         calendar.setTime(getDateOfBirth());
         int birthYear = calendar.get(Calendar.YEAR);
-        return currenrYear - birthYear;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        User user = (User) o;
-        return Objects.equals(id, user.id) &&
-                Objects.equals(firstName, user.firstName) &&
-                Objects.equals(lastName, user.lastName) &&
-                Objects.equals(dateOfBirth, user.dateOfBirth);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(id, firstName, lastName, dateOfBirth);
-    }
-
-    @Override
-    public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", dateOfBirth=" + dateOfBirth +
-                '}';
+        return currentYear - birthYear;
     }
 }

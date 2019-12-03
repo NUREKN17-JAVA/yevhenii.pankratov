@@ -8,7 +8,7 @@ import java.util.Properties;
 public abstract class DaoFactory {
 
     protected static final String USER_DAO = "dao.HsqlUserDao";
-    private static final String DAO_FACTORY = "dao.Factory";
+    protected static final String HSQLDB_USER_DAO = "dao.UserDao";
     protected static Properties properties;
 
 
