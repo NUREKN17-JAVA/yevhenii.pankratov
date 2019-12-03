@@ -1,28 +1,37 @@
 package main.java.ua.nure.kn.pankratov.gui;
 
+
+import main.java.ua.nure.kn.pankratov.db.Dao;
+import main.java.ua.nure.kn.pankratov.db.DaoFactory;
 import main.java.ua.nure.kn.pankratov.util.Message;
 
 import javax.swing.*;
 import java.awt.*;
 
 public class MainFrame extends JFrame {
-
-    private static final int FRAME_WIDTH = 800;
-    private static final int FRAME_HEIGHT = 600;
+    private static final int HEIGHT = 600;
+    private static final int WIDTH = 800;
     private JPanel contentPanel;
-    private JPanel browsePanel;
+    private BrowsePanel browsePanel;
     private AddPanel addPanel;
+    private Dao dao;
 
     public MainFrame() {
         super();
+        dao = DaoFactory.getInstance().getUserDao();
         initialize();
     }
 
+    public Dao getDao() {
+        return dao;
+    }
+
     private void initialize() {
-        this.setDefaultCloseOperation((JFrame.EXIT_ON_CLOSE));
-        this.setSize(FRAME_WIDTH, FRAME_HEIGHT);
-        this.setTitle(Message.getString("user_management"));
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setSize(WIDTH, HEIGHT);
+        this.setTitle(Message.getString("MainFrame.user_management")); // localize
         this.setContentPane(getContentPanel());
+
     }
 
     private JPanel getContentPanel() {
@@ -31,20 +40,25 @@ public class MainFrame extends JFrame {
             contentPanel.setLayout(new BorderLayout());
             contentPanel.add(getBrowsePanel(), BorderLayout.CENTER);
         }
-
         return contentPanel;
     }
 
-    private JPanel getBrowsePanel() {
+    private BrowsePanel getBrowsePanel() {
         if (browsePanel == null) {
             browsePanel = new BrowsePanel(this);
         }
+        ((BrowsePanel) browsePanel).initTable();
         return browsePanel;
     }
+    private AddPanel getAddPanel() {
+        if (addPanel == null) {
+            addPanel = new AddPanel(this);
+        }
+        return addPanel;
+    }
 
-    public static void main(String[] args) {
-        MainFrame mainFrame = new MainFrame();
-        mainFrame.setVisible(true);
+    public void showBrowsePanel() {
+        showPanel(getBrowsePanel());
     }
 
     public void showAddPanel() {
@@ -55,12 +69,11 @@ public class MainFrame extends JFrame {
         getContentPane().add(panel, BorderLayout.CENTER);
         panel.setVisible(true);
         panel.repaint();
+
     }
 
-    private AddPanel getAddPanel() {
-        if (addPanel == null) {
-            addPanel = new AddPanel(this);
-        }
-        return addPanel;
+    public static void main(String[] args){
+        MainFrame frame = new MainFrame();
+        frame.setVisible(true);
     }
 }
