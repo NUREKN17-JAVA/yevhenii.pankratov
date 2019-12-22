@@ -20,7 +20,6 @@ public class DetailsPanel extends JPanel implements ActionListener {
     private JPanel buttonPanel;
     private JPanel fieldPanel;
 
-    private JButton okButton;
 
     private JButton cancelButton;
 
