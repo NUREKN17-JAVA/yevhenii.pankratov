@@ -130,11 +130,9 @@ public class DeletePanel extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         if ("ok".equalsIgnoreCase(e.getActionCommand())) {
             try {
-                userDao.delete(this.user);
-            } catch (DatabaseException e1) {
+                userDao.delete(user);
+            } catch (DatabaseException | DatabaseUnitException e1) {
                 e1.printStackTrace();
-            } catch (DatabaseUnitException ex) {
-                ex.printStackTrace();
             }
         }
         this.setVisible(false);

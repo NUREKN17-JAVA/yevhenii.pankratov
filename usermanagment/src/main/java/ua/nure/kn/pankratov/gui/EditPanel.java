@@ -137,7 +137,6 @@ public class EditPanel extends JPanel implements ActionListener {
             update.setFirstName(getFirstNameField().getText());
             update.setLastName(getLastNameField().getText());
             DateFormat format = DateFormat.getDateInstance();
-
             try {
                 update.setDateOfBirth(format.parse(getDateOfBirthField().getText()));
             } catch (ParseException e1) {
