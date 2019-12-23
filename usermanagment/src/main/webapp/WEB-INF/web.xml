@@ -4,27 +4,27 @@
 
     <servlet>
         <servlet-name>Browse Servlet</servlet-name>
-        <servlet-class>ua.nure.cs.huriev.usermanagement.domain.web.BrowseServlet</servlet-class>
+        <servlet-class>ua.nure.kn.pankratov.usermanagement.domain.web.BrowseServlet</servlet-class>
     </servlet>
 
     <servlet>
         <servlet-name>Add Servlet</servlet-name>
-        <servlet-class>ua.nure.cs.huriev.usermanagement.domain.web.AddServlet</servlet-class>
+        <servlet-class>ua.nure.kn.pankratov.usermanagement.domain.web.AddServlet</servlet-class>
     </servlet>
 
     <servlet>
         <servlet-name>Edit Servlet</servlet-name>
-        <servlet-class>ua.nure.cs.huriev.usermanagement.domain.web.EditServlet</servlet-class>
+        <servlet-class>ua.nure.kn.pankratovv.usermanagement.domain.web.EditServlet</servlet-class>
     </servlet>
 
     <servlet>
         <servlet-name>Details Servlet</servlet-name>
-        <servlet-class>ua.nure.cs.huriev.usermanagement.domain.web.DetailsServlet</servlet-class>
+        <servlet-class>ua.nure.kn.pankratov.usermanagement.domain.web.DetailsServlet</servlet-class>
     </servlet>
 
     <servlet>
         <servlet-name>Delete Servlet</servlet-name>
-        <servlet-class>ua.nure.cs.huriev.usermanagement.web.DeleteServlet</servlet-class>
+        <servlet-class>ua.nure.kn.pankratov.usermanagement.web.DeleteServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
