@@ -30,6 +30,7 @@ public class SearchGui extends JFrame {
     public SearchGui(SearchAgent agent) {
         this.agent = agent;
         initialize();
+
     }
 
     private void initialize() {
