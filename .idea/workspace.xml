@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="494f77e6-0d98-48e1-93b4-e0d1d252616d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,10 +13,15 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -33,6 +37,8 @@
         <option value="$PROJECT_DIR$/usermanagment/src/main/java/ua/nure/kn/pankratov/web/DeleteServlet.java" />
         <option value="$PROJECT_DIR$/usermanagment/src/main/java/ua/nure/kn/pankratov/web/DetailsServlet.java" />
         <option value="$PROJECT_DIR$/usermanagment/src/main/java/ua/nure/kn/pankratov/web/EditServlet.java" />
+        <option value="$PROJECT_DIR$/usermanagment/out/production/usermanagment/main/java/ua/nure/kn/pankratov/agent/SearchAgent.java" />
+        <option value="$PROJECT_DIR$/usermanagment/out/production/usermanagment/main/java/ua/nure/kn/pankratov/agent/exception/SearchException.java" />
       </list>
     </option>
   </component>
@@ -161,7 +167,7 @@
               <item name="nure" type="462c0819:PsiDirectoryNode" />
               <item name="kn" type="462c0819:PsiDirectoryNode" />
               <item name="pankratov" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
+
             </path>
             <path>
               <item name="Новая папка (3)" type="b2602c69:ProjectViewProjectNode" />
@@ -169,13 +175,12 @@
               <item name="usermanagment" type="462c0819:PsiDirectoryNode" />
               <item name="out" type="462c0819:PsiDirectoryNode" />
               <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="usermanagment" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Новая папка (3)" type="b2602c69:ProjectViewProjectNode" />
               <item name="Новая папка (3)" type="462c0819:PsiDirectoryNode" />
               <item name="usermanagment" type="462c0819:PsiDirectoryNode" />
+
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -241,12 +246,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3355000" />
+
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37897125" />
+
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -263,8 +268,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" visible="true" weight="0.2700491" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.2700491" />
+
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -321,6 +325,7 @@
         </state>
       </provider>
     </entry>
+
   </component>
   <component name="masterDetails">
     <states>
