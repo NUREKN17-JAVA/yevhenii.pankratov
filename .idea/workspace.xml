@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="494f77e6-0d98-48e1-93b4-e0d1d252616d" name="Default Changelist" comment="">
-    </list>
+    <list default="true" id="494f77e6-0d98-48e1-93b4-e0d1d252616d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +12,20 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/usermanagment/src/main/java/ua/nure/kn/pankratov/web/AddServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="1378" />
     <option name="height" value="780" />
@@ -68,120 +80,96 @@
               <item name="Новая папка (3)" type="b2602c69:ProjectViewProjectNode" />
               <item name="Новая папка (3)" type="462c0819:PsiDirectoryNode" />
               <item name="usermanagment" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Новая папка (3)" type="b2602c69:ProjectViewProjectNode" />
               <item name="Новая папка (3)" type="462c0819:PsiDirectoryNode" />
               <item name="usermanagment" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Новая папка (3)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Новая папка (3)" type="462c0819:PsiDirectoryNode" />
-              <item name="usermanagment" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="usermanagment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Новая папка (3)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Новая папка (3)" type="462c0819:PsiDirectoryNode" />
-              <item name="usermanagment" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="usermanagment" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Новая папка (3)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Новая папка (3)" type="462c0819:PsiDirectoryNode" />
-              <item name="usermanagment" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="usermanagment" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Новая папка (3)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Новая папка (3)" type="462c0819:PsiDirectoryNode" />
-              <item name="usermanagment" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="usermanagment" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ua" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Новая папка (3)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Новая папка (3)" type="462c0819:PsiDirectoryNode" />
-              <item name="usermanagment" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="usermanagment" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ua" type="462c0819:PsiDirectoryNode" />
-              <item name="nure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Новая папка (3)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Новая папка (3)" type="462c0819:PsiDirectoryNode" />
-              <item name="usermanagment" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="usermanagment" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ua" type="462c0819:PsiDirectoryNode" />
-              <item name="nure" type="462c0819:PsiDirectoryNode" />
-              <item name="kn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Новая папка (3)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Новая папка (3)" type="462c0819:PsiDirectoryNode" />
-              <item name="usermanagment" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="usermanagment" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ua" type="462c0819:PsiDirectoryNode" />
-              <item name="nure" type="462c0819:PsiDirectoryNode" />
-              <item name="kn" type="462c0819:PsiDirectoryNode" />
-              <item name="pankratov" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Новая папка (3)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Новая папка (3)" type="462c0819:PsiDirectoryNode" />
-              <item name="usermanagment" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="usermanagment" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ua" type="462c0819:PsiDirectoryNode" />
-              <item name="nure" type="462c0819:PsiDirectoryNode" />
-              <item name="kn" type="462c0819:PsiDirectoryNode" />
-              <item name="pankratov" type="462c0819:PsiDirectoryNode" />
-
-            </path>
-            <path>
-              <item name="Новая папка (3)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Новая папка (3)" type="462c0819:PsiDirectoryNode" />
-              <item name="usermanagment" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Новая папка (3)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Новая папка (3)" type="462c0819:PsiDirectoryNode" />
-              <item name="usermanagment" type="462c0819:PsiDirectoryNode" />
-
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Новая папка (3)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Новая папка (3)" type="462c0819:PsiDirectoryNode" />
+              <item name="usermanagment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Новая папка (3)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Новая папка (3)" type="462c0819:PsiDirectoryNode" />
+              <item name="usermanagment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Новая папка (3)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Новая папка (3)" type="462c0819:PsiDirectoryNode" />
+              <item name="usermanagment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ua" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Новая папка (3)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Новая папка (3)" type="462c0819:PsiDirectoryNode" />
+              <item name="usermanagment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ua" type="462c0819:PsiDirectoryNode" />
+              <item name="nure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Новая папка (3)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Новая папка (3)" type="462c0819:PsiDirectoryNode" />
+              <item name="usermanagment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ua" type="462c0819:PsiDirectoryNode" />
+              <item name="nure" type="462c0819:PsiDirectoryNode" />
+              <item name="kn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Новая папка (3)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Новая папка (3)" type="462c0819:PsiDirectoryNode" />
+              <item name="usermanagment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ua" type="462c0819:PsiDirectoryNode" />
+              <item name="nure" type="462c0819:PsiDirectoryNode" />
+              <item name="kn" type="462c0819:PsiDirectoryNode" />
+              <item name="pankratov" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Новая папка (3)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Новая папка (3)" type="462c0819:PsiDirectoryNode" />
+              <item name="usermanagment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ua" type="462c0819:PsiDirectoryNode" />
+              <item name="nure" type="462c0819:PsiDirectoryNode" />
+              <item name="kn" type="462c0819:PsiDirectoryNode" />
+              <item name="pankratov" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Новая папка (3)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Новая папка (3)" type="462c0819:PsiDirectoryNode" />
+              <item name="usermanagment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ua" type="462c0819:PsiDirectoryNode" />
+              <item name="nure" type="462c0819:PsiDirectoryNode" />
+              <item name="kn" type="462c0819:PsiDirectoryNode" />
+              <item name="pankratov" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -209,13 +197,13 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\Новая папка (3)\usermanagment\src\test\java\ua" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\Desktop\Новая папка (3)\usermanagment\src\main\java\ua\nure\kn\pankratov" />
       <recent name="C:\Users\Admin\Desktop\Новая папка (3)\usermanagment\src\main" />
       <recent name="C:\Users\Admin\Desktop\Новая папка (3)\usermanagment" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Admin\Desktop\Новая папка (3)\usermanagment\src\test\java\ua" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -246,18 +234,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-
+    <option name="totallyTimeSpent" value="4000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -268,8 +255,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -311,21 +297,21 @@
     <entry file="file://$PROJECT_DIR$/usermanagment/web/WEB-INF/web.xml" />
     <entry file="file://$PROJECT_DIR$/usermanagment/src/main/webapp/add.jsp" />
     <entry file="file://$PROJECT_DIR$/usermanagment/src/main/webapp/browse.jsp" />
-    <entry file="file://$PROJECT_DIR$/usermanagment/src/main/java/ua/nure/kn/pankratov/web/AddServlet.java" />
-    <entry file="file://$PROJECT_DIR$/usermanagment/src/main/java/ua/nure/kn/pankratov/web/BrowseServlet.java" />
-    <entry file="file://$PROJECT_DIR$/usermanagment/src/main/java/ua/nure/kn/pankratov/web/DeleteServlet.java" />
-    <entry file="file://$PROJECT_DIR$/usermanagment/src/main/java/ua/nure/kn/pankratov/web/DetailsServlet.java" />
-    <entry file="file://$PROJECT_DIR$/usermanagment/src/main/java/ua/nure/kn/pankratov/web/EditServlet.java" />
-    <entry file="file://$PROJECT_DIR$/usermanagment/out/production/usermanagment/main/java/ua/nure/kn/pankratov/db/HsqldbUserDao.class">
+    <entry file="file://$PROJECT_DIR$/usermanagment/src/main/java/ua/nure/kn/pankratov/web/AddServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="203">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
           <folding>
-            <element signature="e#0#6221#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-
+    <entry file="file://$PROJECT_DIR$/usermanagment/src/main/java/ua/nure/kn/pankratov/web/BrowseServlet.java" />
+    <entry file="file://$PROJECT_DIR$/usermanagment/src/main/java/ua/nure/kn/pankratov/web/DeleteServlet.java" />
+    <entry file="file://$PROJECT_DIR$/usermanagment/src/main/java/ua/nure/kn/pankratov/web/DetailsServlet.java" />
+    <entry file="file://$PROJECT_DIR$/usermanagment/src/main/java/ua/nure/kn/pankratov/web/EditServlet.java" />
+    <entry file="file://$PROJECT_DIR$/usermanagment/out/production/usermanagment/main/java/ua/nure/kn/pankratov/db/HsqldbUserDao.class" />
   </component>
   <component name="masterDetails">
     <states>
